@@ -4,6 +4,7 @@ package org.example;
 public class EqualSubstring {
     // 1208. 尽可能使字符串相等
     // https://leetcode.cn/problems/get-equal-substrings-within-budget/
+
     public int equalSubstring(String s, String t, int maxCost) {
         int rtu = 0;
         int sum = 0;

@@ -1,5 +1,8 @@
 package org.example;
 
+import java.io.FileInputStream;
+import java.net.URLEncoder;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -7,5 +10,10 @@ public class Main {
         System.out.println(equalSubstring.equalSubstring("abcd", "bdcf", 3));
 
 
+
+
     }
+
+
 }
+

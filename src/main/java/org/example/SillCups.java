@@ -2,9 +2,6 @@ package org.example;
 
 import java.util.Arrays;
 
-class Solution {
-
-}
 
 public class SillCups {
     // 2335. 装满杯子需要的最短总时长
