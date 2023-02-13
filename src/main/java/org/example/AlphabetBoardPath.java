@@ -3,12 +3,9 @@ package org.example;
 public class AlphabetBoardPath {
     // 1138. 字母板上的路径
     // https://leetcode.cn/problems/alphabet-board-path/
+
     public static void main(String[] args) {
         Solution s = new Solution();
-
-
-
-
 
         class Solution {
             public String alphabetBoardPath(String target) {
@@ -51,10 +48,7 @@ public class AlphabetBoardPath {
     }
 
 
-
 }
-
-
 
 
 //
