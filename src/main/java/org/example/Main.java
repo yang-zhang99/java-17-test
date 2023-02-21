@@ -10,9 +10,11 @@ public class Main {
 //        longestWPI.longestWPI(new int[]{9, 9, 6, 0, 6, 6, 9});
 
 
-        LongestPalindrome l = new LongestPalindrome();
-        l.longestPalindrome("ccc");
+//        LongestPalindrome l = new LongestPalindrome();
+//        l.longestPalindrome("ccc");
 
+        FindLongestChain f = new FindLongestChain();
+        f.findLongestChain(new int[][]{{2, 3}, {1, 2}, {3, 4}});
 
     }
 
