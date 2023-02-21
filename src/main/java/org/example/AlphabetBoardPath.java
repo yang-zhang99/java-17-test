@@ -19,18 +19,18 @@ public class AlphabetBoardPath {
             int x = (t - 'a') / 5;
             int y = (t - 'a') % 5;
 
-            if (x < cx) {
-                rtu.append("U".repeat(cx - x));
-            }
-            if (y < cy) {
-                rtu.append("L".repeat(cy - y));
-            }
-            if (x > cx) {
-                rtu.append("D".repeat(x - cx));
-            }
-            if (y > cy) {
-                rtu.append("R".repeat(y - cy));
-            }
+//            if (x < cx) {
+//                rtu.append("U".repeat(cx - x));
+//            }
+//            if (y < cy) {
+//                rtu.append("L".repeat(cy - y));
+//            }
+//            if (x > cx) {
+//                rtu.append("D".repeat(x - cx));
+//            }
+//            if (y > cy) {
+//                rtu.append("R".repeat(y - cy));
+//            }
             rtu.append('!');
             cx = x;
             cy = y;

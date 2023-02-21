@@ -6,8 +6,12 @@ public class Main {
 //        EqualSubstring equalSubstring = new EqualSubstring();
 //        System.out.println(equalSubstring.equalSubstring("abcd", "bdcf", 3));
 
-        LongestWPI longestWPI = new LongestWPI();
-        longestWPI.longestWPI(new int[]{9, 9, 6, 0, 6, 6, 9});
+//        LongestWPI longestWPI = new LongestWPI();
+//        longestWPI.longestWPI(new int[]{9, 9, 6, 0, 6, 6, 9});
+
+
+        LongestPalindrome l = new LongestPalindrome();
+        l.longestPalindrome("ccc");
 
 
     }
