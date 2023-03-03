@@ -1,4 +1,4 @@
-package org.example;
+package org.leetcode;
 
 public class Main {
     public static void main(String[] args) {
@@ -13,8 +13,14 @@ public class Main {
 //        LongestPalindrome l = new LongestPalindrome();
 //        l.longestPalindrome("ccc");
 
-        FindLongestChain f = new FindLongestChain();
-        f.findLongestChain(new int[][]{{2, 3}, {1, 2}, {3, 4}});
+//        FindLongestChain f = new FindLongestChain();
+//        f.findLongestChain(new int[][]{{2, 3}, {1, 2}, {3, 4}});
+
+
+        GetFolderNames getFolderNames = new GetFolderNames();
+
+        getFolderNames.getFolderNames(new String[]{"gta","gta(1)","gta","avalon" });
+
 
     }
 

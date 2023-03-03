@@ -1,4 +1,4 @@
-package org.example;
+package org.leetcode;
 
 public class AlphabetBoardPath {
     // 1138. 字母板上的路径
