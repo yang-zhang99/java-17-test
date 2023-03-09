@@ -5,6 +5,7 @@ import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.concurrent.TimeUnit;
 
 public class Client {
     public static void main(String[] args) {
@@ -18,12 +19,15 @@ public class Client {
             //2、 获取输出流，向服务端发送信息
             os = socket.getOutputStream();// 字节输台
             pw = new PrintWriter(os);//把输出流包装为打印流
-            pw.write("向服务器发送消息");
+//            pw.write("向服务器发送消息");
+            Thread.sleep(1000000000);
             pw.flush();
             socket.shutdownOutput();
 
         } catch (IOException e) {
             e.printStackTrace();
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
         } finally {
             try {
                 //3、关闭资源
